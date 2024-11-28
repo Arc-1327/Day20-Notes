@@ -72,20 +72,29 @@
 </p>
 
 * Example4:
-
-
-
-
-
-
-
-
+<p>
+  <img src= "https://github.com/user-attachments/assets/9c37591b-e131-48a5-bfdc-7631215f1703" width = "550">
+  <img src= "https://github.com/user-attachments/assets/25f6866a-1e33-4ab1-a68b-72c4564d81b6" width = "550" height = "350">
+</p>
 <br>
 
 ## SCATTER PLOT:
+* Example1:
 <p>
   <img src= "https://github.com/user-attachments/assets/c7c75de1-4a28-4447-aceb-14a367fc15d0" width = "550">
   <img src= "https://github.com/user-attachments/assets/67d75ff8-8679-4693-8b16-006eab76fdd2" width = "550" height = "350">
+</p>
+
+* Example2:
+<p>
+  <img src= "https://github.com/user-attachments/assets/0bb9bccf-ad33-4577-980f-9c36f2713ed0" width = "550">
+  <img src= "https://github.com/user-attachments/assets/9296dda1-97b6-41f6-8a7c-87bad71ceb63" width = "550" height = "350">
+</p>
+
+* Example3:
+<p>
+  <img src= "https://github.com/user-attachments/assets/2a4efd77-faad-4f52-9394-34ebafae2be6" width = "550">
+  <img src= "https://github.com/user-attachments/assets/17e060b4-94fc-47b9-a797-d3105b35f754" width = "550" height = "350">
 </p>
 <br>
 
@@ -95,6 +104,82 @@
   <img src= "https://github.com/user-attachments/assets/98d7fb17-1b70-4e8d-ab40-25f5d2d50bb7" width = "550" height = "350">
 </p>
 <br>
+
+## Heatmaps:
+* Example1:
+<p>
+  <img src= "https://github.com/user-attachments/assets/1e43b697-4d2e-4fb2-b75c-23351c7dec55" width = "550">
+  <img src= "https://github.com/user-attachments/assets/6edef85e-abb7-4f13-8da3-b1dc43bc147d" width = "550" height = "350">
+</p>
+
+* Example2:
+<p>
+  <img src= "https://github.com/user-attachments/assets/7f5e2ade-621f-4cf0-87bc-dd77d197d12f" width = "550" height = "270">
+  <img src= "https://github.com/user-attachments/assets/1b3d7399-4427-4cf9-a15a-ac2f36541795" width = "550" height = "370">
+</p>
+<br>
+
+## Box Plot:
+<p>
+  <img src= "https://github.com/user-attachments/assets/11365dab-2339-4565-864b-fd708dcfcc79" width = "550">
+  <img src= "https://github.com/user-attachments/assets/3cd079c8-ea44-4c3d-8b85-ff2dddef157c" width = "550">
+</p>
+<br>
+
+## Mathematical Transforms:
+<p>
+  <img src= "https://github.com/user-attachments/assets/e741c7af-39de-4672-b947-b0e778a981c1" width = "550">
+  <img src= "https://github.com/user-attachments/assets/9c2286cc-2682-47df-9289-17a9c32c2f77" width = "550">
+</p>
+<br>
+
+# Feature Engineering
+## Feature Orthogonality:
+* Two features are said to be orthogonal if they are independent and have zero correlation.
+* Ensuring orthogonality helps to prevent redundancy and multicollinearity, which leads to more stable and interpretable models.
+* Cosine Similarity: method to evaluate the similarity between two vectors using the cosine of the angle between them.
+
+## Feature Collinearity:
+* When two or more features are highly correlated, it results in redundancy.
+* Too much similarity can confuse models, making them harder to train and less accurate.
+* So when two functions are collinear, the least important function is neglected.
+
+## Feature Slicing:
+* It is the method of dividing data based on a specific feature to analyze or process data independently.
+* It finds patterns in specific groups and helps improve accuracy.
+* Often used for exploratory data analysis.
+
+## Indicator Variable:
+* A binary variable that is used to indicate the presence or absence of a certain condition, category, etc.
+* Helps models handle missing data or categorical features.
+
+## Feature Binning:
+* Method of grouping continuous numbers into ranges called Bins.
+* All bins have the same range and an equal number of data points.
+* It reduces noise and outliers, allowing models to treat continuous data as categorical.
+
+## Mathematical Transfor,s:
+* Logarithms:
+  - Used for reducing tailedness.
+  - Compares larger values to the smaller ones to reduce skewness.
+  - Cannot handle zero or negative values.
+  
+* Fourier Transform(FTT):
+  - Decomposes a signal into its frequency components.
+  - It analyzes time-series data to extract patterns.
+
+* Short-Time Fourier Transform (STFT):
+  - Version of FFT that analyzes time-varying frequency components by applying FFT.
+  - Also tracks how patterns change over time.
+    
+
+
+
+
+
+
+
+
 
 
 
