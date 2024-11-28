@@ -158,7 +158,7 @@
 * All bins have the same range and an equal number of data points.
 * It reduces noise and outliers, allowing models to treat continuous data as categorical.
 
-## Mathematical Transfor,s:
+## Mathematical Transforms:
 * Logarithms:
   - Used for reducing tailedness or skewness.
   - Compares larger values to the smaller ones.
