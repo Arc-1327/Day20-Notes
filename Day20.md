@@ -160,8 +160,8 @@
 
 ## Mathematical Transfor,s:
 * Logarithms:
-  - Used for reducing tailedness.
-  - Compares larger values to the smaller ones to reduce skewness.
+  - Used for reducing tailedness or skewness.
+  - Compares larger values to the smaller ones.
   - Cannot handle zero or negative values.
   
 * Fourier Transform(FTT):
